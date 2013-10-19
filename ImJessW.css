@@ -26,16 +26,15 @@ p{
 	color: #f0f0f0;
 }
 
-.navbar-fixed-top{
-	padding-top: 35px;
-	padding-bottom: 0px;
+.navbar{
+	margin-bottom: 0px;
 }
 
 .paragraphGrouping{
 	background-color: rgba(192,192,192, .5);
-	padding-left: 85px;
-	padding-right: 85px;
-	padding-top: 0px;
+	padding: 35px 85px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 
 }
 
@@ -55,4 +54,8 @@ p{
 	border-radius: 100%;
 	border-color: white;
 	border-style: solid;
+}
+.btn-default{
+	background-color: #e7e7e7;
+	border-color:#e7e7e7;
 }

@@ -7,7 +7,16 @@ $("#QButton").on("click", function(){
 	var submitButton= $("#bottomButton");
 	forms.show().focus();
 	submitButton.show();
-
+})
+$("#bottomButton").on("click", function(){
+	var forms= $(".form-group");
+	var submitButton= $("#bottomButton");
+	var QButton=$("#QButton");
+	forms.hide();
+	submitButton.hide();
+	QButton.show();
 
 })
+
+
 });
