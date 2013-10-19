@@ -1,0 +1,58 @@
+/*tect color and nav bar color match #e7e7e7*/
+
+
+
+
+body{
+	background-image: url(wild_flowers.png);
+	font-family: 'Allerta', sans-serif;
+	font-size: 18px;
+	color: #e7e7e7;
+}
+.container {
+	background-color: #e17a9d;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 0px;
+	width: 75%;
+	text-align: center;
+}
+p{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#RefactorU{
+	color: #f0f0f0;
+}
+
+.navbar-fixed-top{
+	padding-top: 35px;
+	padding-bottom: 0px;
+}
+
+.paragraphGrouping{
+	background-color: rgba(192,192,192, .5);
+	padding-left: 85px;
+	padding-right: 85px;
+	padding-top: 0px;
+
+}
+
+.form-group{
+	display: none;
+
+}
+#bottomButton{
+	display: none;
+	margin-bottom: 25px;
+}
+
+
+#profilePic{
+	height: 175px;
+	width: 165px;
+	border-radius: 100%;
+	border-color: white;
+	border-style: solid;
+}
