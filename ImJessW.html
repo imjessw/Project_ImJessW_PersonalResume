@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 	<head>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,38 +12,47 @@
 
 	  <title>ImJessW</title>
 	</head>
-	<!-- multi background images -->
+	
 	<body>
+
+		<!-- Beginng of Navbar -->
+
 		<nav class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-	 <!-- Collect the nav links, forms, and other content for toggling -->
-	  <div class="collapse navbar-collapse navbar-ex1-collapse">
-	    <ul class="nav navbar-nav">
-	    	<!-- Angelist -->
-	      <li class="active"><a href="https://angel.co/jessica-waite">Angelist</a></li>
-	      <!-- GitHub -->
-	      <li><a href="https://www.github.com/imjessw">GitHub</a></li>
-	      <li><a href="http://www.linkedin.com/pub/jessica-waite/4b/b6/852">Linkedin</a></li>
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		      <span class="sr-only">Toggle navigation</span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		    </button>
+			 <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse navbar-ex1-collapse">
+			    <ul class="nav navbar-nav">
+			    	<!-- Angelist -->
+			      <li class="active"><a href="https://angel.co/jessica-waite">Angelist</a></li>
+			      <!-- GitHub -->
+			      <li><a href="https://www.github.com/imjessw">GitHub</a></li>
+			      <li><a href="http://www.linkedin.com/pub/jessica-waite/4b/b6/852">Linkedin</a></li>
 
-	      <li class="dropdown">
-	        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Socials<b class="caret"></b></a>
-	        <ul class="dropdown-menu">
-	        	<!-- Twitter -->
-	          <li><a href="http://www.twitter.com/ImJessW">Twitter</a></li>
-	         <!--  Instagram -->
-	          <li><a href="http://instagram.com/imjessw">Instagram</a></li>
-	        </ul>
-	      </li>
-	    </ul>
-	  </div><!-- /.navbar-collapse -->
-	</nav>
+			      <li class="dropdown">
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Socials<b class="caret"></b></a>
+			        <ul class="dropdown-menu">
+			        	<!-- Twitter -->
+			          <li><a href="http://www.twitter.com/ImJessW">Twitter</a></li>
+			         <!--  Instagram -->
+			          <li><a href="http://instagram.com/imjessw">Instagram</a></li>
+			        </ul>
+			      </li>
+			    </ul>
+			  </div>
+		</div>
+		</nav>
+			<!-- nav bar end -->
+
+			<!-- end of Navbar -->
+
+
   		<!-- Starting paragraphs with style -->
 		<div class="container" id="middleBackground">
 			<div class="paragraphGrouping">		
@@ -62,14 +72,25 @@
 
 			valuable player in the next big thing. I'm open to relocation and I'm ready to work. Let's go. </p>
 
+			<!-- Lang and libraries -->
 
 			<p> <b>Languages and Libraries:</b><br>
 				HTML, CSS, Dev Tools, Javascript,  jQuery, Twitter Bootstrap, Node, Express, Ajax, Jade, Unit testing with Jasmine, JSON, CoffeeScript, Python, Websocket, SQL, MongoDB.
 			</p>
+			<!-- other rad things I know  -->
 			<p><b>Other Technical Skills:</b><br>
-				Pair programming, Source Control(Git, and GiHub), Object Oriented Programming,Agile/Scrum, Behavior Driven Development, Sublime Text.<p><br>
+				Pair programming, Source Control(Git, and GitHub), Object Oriented Programming,Agile/Scrum, Behavior Driven Development, Sublime Text.<p><br>
+
+
+				<!-- questions button -->
+
 				<button type="button" id="QButton" class="btn btn-default btn-lg">Questions? Email me!</button>
-			<form role="form">
+
+				<div class="alert alert-danger" id="badInfo">Oh no! Please enter all information.</div>
+
+				<!-- Form -->
+
+			<form id="formInfo" role="form">
 				  <div class="form-group">
 				    <input type="firstName" class="form-control" id="first" placeholder="First Name">
 				  </div>
@@ -85,11 +106,14 @@
 				  <button type="submit" id="bottomButton" class="btn btn-default">Submit</button>
 			</form>
 		</div>
-		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<!-- end of form -->
+
+
+		<!-- cdn's and other such links -->
+		
+		<script src=""http://code.jquery.com/jquery-1.10.1.min.js""></script>
+		<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="ImjessW.js"></script>
-		<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js">
 	</body>
 </html>
