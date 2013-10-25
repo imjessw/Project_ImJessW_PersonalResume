@@ -41,7 +41,7 @@ app.get('/', routes.index);
 app.get('/users', user.list);
 app.post('/sendEmail', function(req, res){
 	server.send({
-		text: "Hello",
+		text: "Hello", // this will become my input
 		from: "Jess <imjessw@gmail.com>",
 		to: "Jess <imjessw@gmail.com>",
 		subject: "I\'m jessw"
