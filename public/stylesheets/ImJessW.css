@@ -10,7 +10,7 @@ body{
 	color: #e7e7e7;
 }
 .container {
-	background-color: #e17a9d;
+	background-color: #2E0854;
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-top: 0px;
@@ -31,7 +31,7 @@ p{
 }
 
 .paragraphGrouping{
-	background-color: rgba(192,192,192, .5);
+	background-color: rgba(192,192,192, .7);
 	padding: 35px 85px;
 	margin-top: 25px;
 	margin-bottom: 25px;
