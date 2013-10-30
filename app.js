@@ -10,7 +10,7 @@ var http = require('http');
 var path = require('path');
 var email= require ('emailjs/email');
 var server= email.server.connect({
-	user: "imjessw@gmail.com",
+	user: "imjesswsite@gmail.com",
 	password: "jlwaite2013",
 	host: "smtp.gmail.com",
 	ssl: true
@@ -42,9 +42,9 @@ app.get('/users', user.list);
 app.post('/sendEmail', function(req, res){
 	server.send({
 		text: "Hello", // this will become my input
-		from: "Jess <imjessw@gmail.com>",
+		from: "Jess <imjesswsite@gmail.com>",
 		to: "Jess <imjessw@gmail.com>",
-		subject: "I\'m jessw"
+		subject: "I\'m JessW Site Intro"
 	}, function(err, message){
 		console.log(err);
 		console.log(message);
