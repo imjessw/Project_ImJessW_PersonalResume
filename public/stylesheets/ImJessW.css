@@ -71,3 +71,10 @@ p{
 #badInfo{
 	display: none;
 }
+#thankYou{
+	color: #e7e7e7;
+	background-color: #2E0854;
+	border-color: #e7e7e7;
+	display: none;
+	
+}
