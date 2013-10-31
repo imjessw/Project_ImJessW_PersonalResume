@@ -10,9 +10,9 @@ var http = require('http');
 var path = require('path');
 var email= require ('emailjs/email');
 var server= email.server.connect({
-	user: "imjesswsite@gmail.com",
-	password: "jlwaite2013",
-	host: "smtp.gmail.com",
+	user: "app19024585@heroku.com",
+	password: "wpecniz9",
+	host: "smtp.sendgrid.net",
 	ssl: true
 
 })
@@ -40,16 +40,29 @@ if ('development' == app.get('env')) {
 app.get('/', routes.index);
 app.get('/users', user.list);
 app.post('/sendEmail', function(req, res){
+	var appData=req.body;
+	console.log(appData)
+	console.log(appData.first+" "+ appData.lastName+" "+ appData.email+" "+appData.message);
+	res.send("hello")
+	
 	server.send({
-		text: "Hello", // this will become my input
-		from: "Jess <imjesswsite@gmail.com>",
+		text: appData.first+" "+ appData.lastName+" "+ appData.email+" "+appData.message, // this will become my input
+		from: "Jess <app19024585@heroku.com>",
 		to: "Jess <imjessw@gmail.com>",
 		subject: "I\'m JessW Site Intro"
 	}, function(err, message){
 		console.log(err);
 		console.log(message);
 	})
+
 })
+
+	// first:appData.first
+	// last:appData.lastName
+	// email:appData.email
+	// message:appData.message
+
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

@@ -28,21 +28,30 @@ $(document).ready(function(){
 
 	// logic for forms left blank
 
-		if (first.val() === "" || lastName.val()=== "" 
-			|| email.val() === "" || message.val() === "" ) {
+		// if (first.val() === "" || lastName.val()=== "" 
+		// 	|| email.val() === "" || message.val() === "" ) {
 			
-			badInfo.show();
+		// 	badInfo.show();
 			
-		}
+		// }
 		
-		else{
+		// else{
 			alert("Thank you. I look forward to speaking with you soon!")
 			forms.hide(); //to hide form
+			var myData = {
+				first: first.val(),
+				lastName: lastName.val(),
+				email: email.val(),
+				message: message.val()
+			};
+			$.post("/sendEmail", myData,function(){
+				console.log("complete")
+			})
 			forms.val("");  //to clear form
 			submitButton.hide(); //hide submit button
 			QButton.show(); //show question button again
-			console.log("the end")
-		}	
+						console.log("the end")
+		// }	
 		return false
 	});
 });		
