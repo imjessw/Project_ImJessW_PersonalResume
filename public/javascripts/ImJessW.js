@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 
 	$("#formInfo").on("submit", function(){
-		console.log("you are a Javascript genius... kind of")
+		
 		var forms= $(".form-group");
 		var submitButton= $("#formInfo");
 		var QButton= $("#QButton");
@@ -23,27 +23,39 @@ $(document).ready(function(){
 		var email= $("#email");
 		var message= $("#message");
 		var badInfo= $("#badInfo")
+	
+	
 	// dialogbox
-
-
 	// logic for forms left blank
 
 		if (first.val() === "" || lastName.val()=== "" 
-			|| email.val() === "" || message.val() === "" ) {
+		 || email.val() === "" || message.val() === "" ) {
 			
-			badInfo.show();
+			badInfo.show(). fadeOut(5000);
+		return false
 			
 		}
+
 		
 		else{
-			alert("Thank you. I look forward to speaking with you soon!")
+			$("#thankYou").show().fadeOut(4000);
 			forms.hide(); //to hide form
+			var myData = {
+				first: first.val(),
+				lastName: lastName.val(),
+				email: email.val(),
+				message: message.val()
+			};
+			$.post("/sendEmail", myData,function(){
+				console.log("complete")
+			})
 			forms.val("");  //to clear form
 			submitButton.hide(); //hide submit button
 			QButton.show(); //show question button again
-			console.log("the end")
-		}	
-		return false
+						console.log("the end")
+			return false
+		}		
+		
 	});
 });		
 
