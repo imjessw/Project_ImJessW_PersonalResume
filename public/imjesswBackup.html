@@ -1,15 +1,19 @@
-<html lang="en"><head>
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	 	<!-- <link rel="stylesheet" type="text/css" href="normalize.css"> -->
 	 	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-	 	<link href="http://fonts.googleapis.com/css?family=Prosto+One" rel="stylesheet" type="text/css">
-	 	<link rel="stylesheet" type="text/css" href="ImjessW.css">
+	 	<link href='http://fonts.googleapis.com/css?family=Prosto+One' rel='stylesheet' type='text/css'>
+	 	<link rel="stylesheet" type="text/css" href="../stylesheets/ImJessW.css">
 
 	  <title>ImJessW</title>
 	</head>
 	
-	<body style="">
+	<body>
 
 		<!-- Beginng of Navbar -->
 
@@ -26,18 +30,26 @@
 			  <div class="collapse navbar-collapse navbar-ex1-collapse">
 			    <ul class="nav navbar-nav">
 			    	<!-- Angelist -->
-			      <li class="active" id="angelist"><a href="https://angel.co/jessica-waite" target="_top">Angelist</a></li>
+			      <li class="active"><a href="https://angel.co/jessica-waite" target="_top">Angelist</a></li>
 			      <!-- GitHub -->
 			      <li><a href="https://www.github.com/imjessw" target="_top">GitHub</a></li>
 			      <li><a href="http://www.linkedin.com/pub/jessica-waite/4b/b6/852" target="_top">Linkedin</a></li>
-
+			      <!-- Dropdown -->
 			      <li class="dropdown">
 			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Socials<b class="caret"></b></a>
 			        <ul class="dropdown-menu">
 			        	<!-- Twitter -->
-			          <li><a href="http://www.twitter.com/ImJessW"t arget="_top">Twitter</a></li>
+			          <li><a href="http://www.twitter.com/ImJessW" target="_top">Twitter</a></li>
 			         <!--  Instagram -->
+
+			          <li><a href="http://instagram.com/imjessw">Instagram</a></li>
+			          <!-- wordpress -->
+			          <li><a href="http://www.ImJessW.wordpress.com">Wordpress</a></li>
+			          <!-- Tumblr -->
+			          <li><a href="http://imjessw.tumblr.com/">Tumblr</a></li>
+			          <!-- Instagram -->
 			          <li><a href="http://instagram.com/imjessw" target="_top">Instagram</a></li>
+
 			        </ul>
 			      </li>
 			    </ul>
@@ -49,11 +61,11 @@
 			<!-- end of Navbar -->
 
 
-  		<!-- Starting paragraphs with style -->
+  		 <!-- Starting paragraphs with style -->
 		<div class="container" id="middleBackground">
 			<div class="paragraphGrouping">		
-			<img id="profilePic" src="ProfilePic.jpg">
-			<h2>Hi! I'm Jess!</h2>
+			<img id="profilePic" src="../images/ProfilePic.jpg">
+			<h2>Hi! I'm Jess!<br> Web Devolper. Adventurer. Acceptor of Challenges.</h2>
 			<p><b>About Me:</b><br>I've always been interested in technology and I'm fueled by the desire to use it in a positive way, whether 
 
 			that's to create new jobs or build the latest greatest socially conscious company. That's why I founded my 
@@ -62,27 +74,28 @@
 
 			venture, I've put myself on the map by joining several startups across the country. I did that to improve 
 
-			my skills, learn from the best and challenge myself in ways most people never will. I'm currently attending 
+			my skills, learn from the best and challenge myself in ways most people never will. I attended 
 
-			 <a id="RefactorU" href="http://www.Refactoru.com"><u>RefactorU</u></a> so I can add another skill set to my resume and right now, my goal is to become a 
+			 <a id="RefactorU"href="http://www.Refactoru.com"><u>RefactorU</u></a> last year so I could add another skill set to my resume and right now, my goal is to become a 
 
-			valuable player in the next big thing. I'm open to relocation and I'm ready to work. Let's go. </p>
+			valuable player in the next big thing. I live in New York and I'm ready to work. Let's go. </p>
 
 			<!-- Lang and libraries -->
 
 			<p> <b>Languages and Libraries:</b><br>
-				HTML, CSS, Dev Tools, Javascript,  jQuery, Twitter Bootstrap, Node, Express, Ajax, Jade, Unit testing with Jasmine, JSON, Python, Websocket, SQL, MongoDB.
+				HTML, CSS, Dev Tools, Javascript,  jQuery, Twitter Bootstrap, Node, Express, Ajax, Jade, Unit testing with Jasmine, JSON, CoffeeScript, Python, Websocket, SQL, MongoDB.
 			</p>
 			<!-- other rad things I know  -->
 			<p><b>Other Technical Skills:</b><br>
-				Pair programming, Source Control(Git, and GitHub), Object Oriented Programming,Agile/Scrum, Behavior Driven Development, Sublime Text.</p><p><br>
+				Pair programming, Source Control(Git, and GitHub), Object Oriented Programming,Agile/Scrum, Behavior Driven Development, Sublime Text.<p><br>
 
 
 				<!-- questions button -->
 
 				<button type="button" id="QButton" class="btn btn-default btn-lg">Questions? Email me!</button>
 
-				</p><div class="alert alert-danger" id="badInfo">Oh no! Please enter all information.</div>
+				<div class="alert alert-danger" id="badInfo">Oh no! Please enter all information.</div>
+				<div class="alert alert-danger" id="thankYou">Thank you! I look forward to speaking with you soon.</div>
 
 				<!-- Form -->
 
@@ -102,14 +115,16 @@
 				  <button type="submit" id="bottomButton" class="btn btn-default">Submit</button>
 			</form>
 		</div>
+
+		
 		<!-- end of form -->
 
 
 		<!-- cdn's and other such links -->
 		
-		<script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 		<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
 		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="ImJessW.js"></script>
-	
-</div></body></html>
+		<script type="text/javascript" src="/javascripts/ImJessW.js"></script>
+	</body>
+</html>
