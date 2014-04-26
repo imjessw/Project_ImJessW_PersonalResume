@@ -1,40 +1,18 @@
 /*text color and nav bar color match #e7e7e7*/
-
-
-body{
-	background-image: url(/images/wild_flowers.png);
-	font-family: 'Allerta', sans-serif;
-	font-size: 20px;
-	color: #e7e7e7;
+.section1{
+	background-image: url("images/background.JPG");
+	min-height:600px; 
 }
-.container {
-	background-color: #2E0854;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 0px;
-	width: 75%;
+.container{
+	font: arial;
 	text-align: center;
 }
-p{
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
 
-#RefactorU{
-	color: #f0f0f0;
-}
+
 
 .navbar{
 	margin-bottom: 0px;
-}
-
-.paragraphGrouping{
-	background-color: rgba(192,192,192, .7);
-	padding: 35px 85px;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	/*box-shadow: 3px 6px 3px 3px #e7e7e7;*/
-
+	background-color: green;
 }
 
 .form-group{
@@ -47,15 +25,6 @@ p{
 }
 
 
-#profilePic{
-	height: 175px;
-	width: 165px;
-	border-radius: 100%;
-	border: 3px solid;
-	border-color:#e7e7e7;
-	/*needs border shadow*/
-	
-}
 .btn-default{
 	background-color: #e7e7e7;
 	border-color:#e7e7e7;
