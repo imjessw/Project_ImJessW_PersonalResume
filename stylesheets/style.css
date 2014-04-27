@@ -2,10 +2,31 @@
 body{
 	font-family: arial;
 }
+.navbar{
+	background-color: #c6f1d7;
+	color: white;
+	height: 20px;
+	margin-bottom: 0;
+	position: fixed;
+	width: 100%;
+	border-radius: 0px;
+
+}
+
+ul{
+	list-style: none;
+}
+li{
+		display: inline-block;
+		float: right;
+		font-size: 14px;
+}
+
+
 #section1{
 	background-image: url('../images/mainImage.jpg');
 	background-size: cover;
-	min-height: 850px;
+	min-height: 825px;
 	margin-top: 0;
 	top: 0;
 }
@@ -16,18 +37,48 @@ body{
 	text-align: center;
 	padding-top: 380px;
 }
+h3{
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
 #section2{
 	background-color: #43194a;
+	min-height: 250px;
+}
+.p75{
+	max-width: 75%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+p{
+	padding: 30px 0px;
+	color: white;
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+
+#section3{
+	background-color: #b4214e;
 	min-height: 350px;
 }
 
-#section2{
-	background-color: #43194a;
+#section4{
+	background-color: #85af6e;
 	min-height: 350px;
 }
 
 button#QButton {
-border-radius: 0px;
+	border-radius: 0px;
+	background-color: #c6f1d7;
+	color: white;
+	font: arial;
+	border: none;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .form-group{
