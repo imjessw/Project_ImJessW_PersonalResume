@@ -3,7 +3,7 @@ body{
 	font-family: arial;
 }
 .navbar{
-	background-color:rgba(198, 241, 215, 0.7);
+	background-color:rgba(198, 241, 215, 0.8);
 	color: white;
 	min-height: 36px;
 	margin-bottom: 0;
@@ -75,6 +75,10 @@ p{
 #section3{
 	background-color: #b4214e;
 	min-height: 350px;
+}
+
+.circles{
+	margin-top: 45px;
 }
 
 #section4{
