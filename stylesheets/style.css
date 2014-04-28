@@ -3,7 +3,7 @@ body{
 	font-family: arial;
 }
 .navbar{
-	background-color: #c6f1d7;
+	background-color:rgba(198, 241, 215, 0.4);
 	color: white;
 	height: 20px;
 	margin-bottom: 0;
@@ -19,7 +19,12 @@ ul{
 li{
 		display: inline-block;
 		float: right;
-		font-size: 14px;
+		font-size: 16px;
+		padding: 5px;
+}
+a{
+	color: white;
+	text-decoration: none;
 }
 
 
