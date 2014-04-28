@@ -37,7 +37,7 @@ a{
 #section1{
 	background-image: url('../images/mainImage.jpg');
 	background-size: cover;
-	min-height: 825px;
+	min-height: 630px;
 	margin-top: 0;
 	top: 0;
 }
@@ -46,7 +46,7 @@ a{
 	margin: 0 auto;
 	color: white;
 	text-align: center;
-	padding-top: 380px;
+	padding-top: 255px;
 }
 h3{
 	margin: 0 auto;
@@ -84,6 +84,10 @@ p{
 #section4{
 	background-color: #85af6e;
 	min-height: 350px;
+}
+.contactMe{
+	background-color: #c6f1d7;
+	max-width: 50%;
 }
 
 button#QButton {
