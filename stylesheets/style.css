@@ -65,7 +65,8 @@ h3{
 }
 
 p{
-	padding: 30px 0px;
+	padding-top: 30px;
+	padding-bottom: 50px;
 	color: white;
 	text-align: center;
 	margin-bottom: 0;
@@ -79,6 +80,7 @@ p{
 
 .circles{
 	margin-top: 45px;
+	padding-bottom: 45px;
 }
 
 #section4{
@@ -87,12 +89,12 @@ p{
 }
 .contactMe{
 	background-color: #c6f1d7;
-	max-width: 50%;
+
 }
 
 button#QButton {
 	border-radius: 0px;
-	background-color: #c6f1d7;
+	background-color:#826494;
 	color: white;
 	font: arial;
 	border: none;
