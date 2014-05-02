@@ -89,7 +89,11 @@ p{
 }
 .contactMe{
 	background-color: #c6f1d7;
+}
 
+.contactMe img{
+	max-width: 100px;
+	max-height: 100px;
 }
 
 button#QButton {
