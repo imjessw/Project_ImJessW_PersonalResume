@@ -90,11 +90,16 @@ p{
 .contactMe{
 	background-color: #c6f1d7;
 }
-
 .contactMe img{
-	max-width: 100px;
+	max-height: 100px;
 	max-height: 100px;
 }
+
+.section5{
+	padding-top: 15px;
+	background-color: #826494;Z
+}
+
 
 button#QButton {
 	border-radius: 0px;
@@ -104,6 +109,8 @@ button#QButton {
 	border: none;
 	text-align: center;
 	margin: 0 auto;
+	display: block;
+
 }
 
 .form-group{
