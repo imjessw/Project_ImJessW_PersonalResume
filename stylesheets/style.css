@@ -85,9 +85,10 @@ p{
 
 #section4{
 	background-color: #85af6e;
-	min-height: 350px;
+	min-height: 310px;
 }
 .contactMe{
+	margin-top: 45px;
 	background-color: #c6f1d7;
 }
 .contactMe img{
@@ -96,8 +97,8 @@ p{
 }
 
 .section5{
-	padding-top: 15px;
-	background-color: #826494;Z
+	background-color: #826494;
+	text-align: center;
 }
 
 
@@ -114,6 +115,7 @@ button#QButton {
 }
 
 .form-group{
+	padding-top: 25px;
 	display: none;
 
 }
@@ -137,4 +139,12 @@ button#QButton {
 	border-color: #e7e7e7;
 	display: none;
 	
+}
+#bottomButton{
+	border-radius: 0;
+	margin: 10px auto;
+	text-align: center;
+	color: white;
+	background-color: #823b6a
+
 }
