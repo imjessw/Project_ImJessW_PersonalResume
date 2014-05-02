@@ -63,11 +63,6 @@ app.post('/sendEmail', function(req, res){
 
 })
 
-	// first:appData.first
-	// last:appData.lastName
-	// email:appData.email
-	// message:appData.message
-
 
 
 http.createServer(app).listen(app.get('port'), function(){
