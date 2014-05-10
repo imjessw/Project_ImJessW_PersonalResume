@@ -87,10 +87,11 @@ p{
 	background-color: #85af6e;
 	min-height: 380px;
 }
+.contact{
+	height: 400px;
+}
 .contactMe{
-	margin-top: 45px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 45px auto;
 	width: 700px;
 	text-align: center;
 	background-color: #c6f1d7;
@@ -153,3 +154,5 @@ button#QButton {
 	background-color: #823b6a
 
 }
+
+@media
