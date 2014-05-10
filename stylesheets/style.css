@@ -155,4 +155,12 @@ button#QButton {
 
 }
 
-@media
+/*Tablet*/
+
+@media (max-width: 1000px){
+	
+#section1{
+	max-height: 480px;
+}
+
+}
